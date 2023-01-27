@@ -1,6 +1,6 @@
     
     /* Text Google Fonts "League Spartan" */
-    @import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
     @import url('https://fonts.cdnfonts.com/css/cooper-hewitt');
 
 /* Reset */
@@ -19,6 +19,7 @@ body {
     letter-spacing: 2px;
     color: black;
     background-color: #c6b6a9;
+    font-weight: 900;
 }
 
 
@@ -42,7 +43,7 @@ body {
     top: 15px;
     text-transform: uppercase;
     font-size: 60px;
-    font-weight: 1200;
+    font-weight: 700;
 }
 
 /* Navigation */
@@ -101,9 +102,6 @@ body {
     
 }
 
-.hero_head {
-
-}
 
 .hero_header {
     font-size: 48px;
@@ -125,6 +123,40 @@ body {
 }
 
 
+/* Containers for front page */
+
+
+
+.container_left_bottom {
+
+    width: 200px;
+    height: 200px;
+    background-color: #231f20;
+    position: relative;
+    top: 500px;
+    border-radius: 50%;
+    left: 100px;
+
+
+
+}
+
+.container_border_left_bottom {
+    width: 300px;
+    height: 150px;
+    background-color: #e98784;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    position: relative;
+    top: 100px;
+    right: 50px;
+    
+    z-index: -1;
+
+    
+}
+
+
 
 
 /* Footer */
@@ -134,7 +166,7 @@ body {
    
     background-color: #847365;
     width: 100%;
-    height: 50px;
+    height: 75px;
     position: absolute;
     top: 100%;
 
@@ -144,8 +176,12 @@ body {
     font-size: 20px;
     text-align: center;
     color: white;
+    position: relative;
+    top: 20px;
     
 }
+
+/* Footer links to social medias */
 
 .footer_links {
     float: right;
