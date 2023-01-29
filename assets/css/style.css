@@ -5,12 +5,18 @@
 
 /* Reset */
 
+
+body, html {
+
+    height: 100%;
+    width: 100%;
+}
+
 * {
     padding: 0;
     margin: 0;
     border: 0;
 }
-
 
 
 body {
@@ -86,39 +92,38 @@ body {
 
 /* Hero */
 
-.hero {
+.hero-section {
 
-    background-color: grey;
-    height: 400px;
-    width: 90%;
-    left: 5%;
-    top: 150px;
-    position: relative;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+   
+}
+
+.hero-circle {
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #847365;
+    position: absolute;
+    align-self: center;
+    z-index: -2;
 
 }
 
-.hero_header {
-    text-align: center;
+.hero-picture {
+
+    width: 800px;
+    height: 800px;
+    align-self: center;
+    left: 100px;
+    position: absolute;
     
-}
-
-
-.hero_header {
-    font-size: 48px;
-
-}
-
-.hero_text {
-    position: relative;
-    left: 10px;
-    overflow: hidden;
-
-}
-
-.main_text {
-    font-size: 18px;
     
-
 
 }
 
@@ -127,33 +132,144 @@ body {
 
 
 
-.container_left_bottom {
+    
 
-    width: 200px;
-    height: 200px;
+.flex-container-right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+
+}
+
+.container-flex-right {
+    width: 250px;
+    height: 250px;
     background-color: #231f20;
-    position: relative;
-    top: 500px;
     border-radius: 50%;
-    left: 100px;
+    align-self: center;
+    position: relative;
+    margin: 70px;
+
+}
+
+
+.container-border-right {
+
+    width: 310px;
+    height: 155px;
+    background-color: #e98784;
+    border-bottom-left-radius: 155px;
+    border-bottom-right-radius: 155px;
+    position: relative;
+    top: 125px;
+    right: 30px;
+    z-index: -1;
+
+}
+
+.flex-container-left {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    position: absolute;
+
+    
+}
+
+
+.container-flex-left {
+    width: 250px;
+    height: 250px;
+    background-color: #231f20;
+    border-radius: 50%;
+    align-self: center;
+    position: relative;
+    margin: 70px;
+
+}
+
+
+.container-border-left {
+    width: 310px;
+    height: 155px;
+    background-color: #e98784;
+    border-bottom-left-radius: 155px;
+    border-bottom-right-radius: 155px;
+    position: relative;
+    z-index: -1;
+    top: 125px;
+    right: 30px;
 
 
 
 }
 
-.container_border_left_bottom {
-    width: 300px;
-    height: 150px;
-    background-color: #e98784;
-    border-bottom-left-radius: 150px;
-    border-bottom-right-radius: 150px;
+.flex-container-text {
+    text-align: center;
+    font-size: 48px;
+    color: white;
     position: relative;
-    top: 100px;
-    right: 50px;
-    
-    z-index: -1;
+    bottom: 48px;
+    overflow: hidden;
+    font-family: 'league spartan';
+}
 
+.flex-container-text {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.flex-container-text a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Text box */
+
+.text-box {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: #231f20;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-box {
+    height: 900px;
+    width: 900px;
+    background-color: #847365;
+    border-radius: 50%;
+    position: absolute;
+    left: -500px;
+    border: 5px solid #cb7775;
+    border-bottom-right-radius: 900px;
+    border-top-right-radius: 900px;
     
+}
+
+
+
+.box-text {
+    flex-flow: wrap;
+    font-size: 32px;
+    color: white;
+    position: relative;
+    bottom: 100px;
+    inline-size: 800px;
+    color: #cb7775;
+    right: 200px;
+
+
+
 }
 
 
@@ -166,16 +282,16 @@ body {
    
     background-color: #847365;
     width: 100%;
-    height: 75px;
+    height: 85px;
     position: absolute;
-    top: 100%;
+    margin-top: auto;
 
 }
 
 .footer_text {
     font-size: 20px;
     text-align: center;
-    color: white;
+    color: black;
     position: relative;
     top: 20px;
     
