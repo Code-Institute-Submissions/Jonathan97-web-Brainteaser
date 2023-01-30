@@ -46,9 +46,9 @@ body {
     float: left;
     position: relative;
     left: 8px;
-    top: 20px;
+    top: 10px;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 700;
 }
 
@@ -60,7 +60,6 @@ body {
     position: relative;
     top: 15px;
     right: 10px;
-    width: auto;
 }
 
 .nav_links {
@@ -71,7 +70,7 @@ body {
 .nav_links a {
     text-decoration: none;
     color: black;
-    padding: 2px;
+    padding: 5px;
     font-family: 'cooper hewitt';
     font-weight: 709;
     
@@ -101,34 +100,29 @@ body {
     align-items: center;
     height: 100%;
     width: 100%;
-
    
 }
 
 .hero-circle {
     display: flex;
-    width: 275px;
-    height: 275px;
+    width: 1000px;
+    height: 1000px;
     border-radius: 50%;
     background-color: #847365;
     position: absolute;
     align-self: center;
     z-index: -2;
-    top: 200px;
 
 }
 
 .hero-picture {
 
-    width: 200px;
-    height: 200px;
+    width: 800px;
+    height: 800px;
     align-self: center;
-    position: relative;
-    display: block;
-    top: auto;
-    margin-left: auto;
-    margin-right: auto;
-
+    left: 100px;
+    position: absolute;
+    
     
 
 }
@@ -142,90 +136,85 @@ body {
 
 .flex-container-right {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    justify-content: flex-end;
     align-items: center;
-    height: 300px;
+    height: 400px;
     width: 90%;
 }
 
 .container-flex-right {
-    width: 80px;
-    height: 80px;
+    width: 250px;
+    height: 250px;
     background-color: #231f20;
     border-radius: 50%;
+    align-self: center;
     position: relative;
-    top: 210px;
-    margin: 90px;
-    right: 90px;
-
-    
-
-    
+    margin: 70px;
 
 }
 
 
 .container-border-right {
 
-    width: 100px;
-    height: 50px;
+    width: 310px;
+    height: 155px;
     background-color: #e98784;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 155px;
+    border-bottom-right-radius: 155px;
     position: relative;
-    top: 40px;
+    top: 125px;
+    right: 30px;
     z-index: -1;
-    right: 10px;
 
 }
 
 .flex-container-left {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
     align-items: center;
-    height: 300px;
+    height: 400px;
     width: 90%;
-    
+    position: absolute;
 
     
 }
 
 
 .container-flex-left {
-    width: 80px;
-    height: 80px;
+    width: 250px;
+    height: 250px;
     background-color: #231f20;
     border-radius: 50%;
     align-self: center;
     position: relative;
-    margin: 60px;
-    right: 30px;
-    bottom: -5px;
+    margin: 70px;
 
 }
 
 
 .container-border-left {
-    width: 100px;
-    height: 50px;
+    width: 310px;
+    height: 155px;
     background-color: #e98784;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 155px;
+    border-bottom-right-radius: 155px;
     position: relative;
     z-index: -1;
-    top: 40px;
-    right: 10px;
+    top: 125px;
+    right: 30px;
 
- 
+
+ /* Links and text for containers */
 }
-/* Links and text for containers */
 
 .flex-container-text {
     text-align: center;
-    font-size: 12px;
+    font-size: 48px;
     color: white;
     position: relative;
-    bottom: 15px;
+    bottom: 48px;
     font-family: 'league spartan';
     text-decoration: none;
     color: white;
@@ -236,7 +225,7 @@ body {
 .tips-tricks {
 
     position: relative;
-    bottom: 5px;
+    bottom: 20px;
 }
 
 .flex-container-text a {
