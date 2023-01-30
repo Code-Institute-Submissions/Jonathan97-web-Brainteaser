@@ -274,9 +274,10 @@ body {
     font-size: 30px;
     color: #231f20;
     inline-size: 300px;
-    top: 350px;
-
-}
+    height:  300px;
+    top: 300px;
+    
+    }
 
 
 
@@ -289,7 +290,6 @@ body {
     color: #cb7775;
     right: 500px;
     font-family: 'cooper hewitt';
-
 
 }
 
