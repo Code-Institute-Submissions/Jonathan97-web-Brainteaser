@@ -12,6 +12,7 @@ body, html {
     width: 100%;
 }
 
+
 * {
     padding: 0;
     margin: 0;
@@ -99,8 +100,7 @@ body {
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    height: 800px;
 
    
 }
@@ -119,18 +119,13 @@ body {
 }
 
 .hero-picture {
-
     width: 200px;
     height: 200px;
     align-self: center;
-    position: relative;
     display: block;
     top: auto;
     margin-left: auto;
     margin-right: auto;
-
-    
-
 }
 
 
@@ -139,73 +134,85 @@ body {
 
 
     
-
-.flex-container-right {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    height: 300px;
-    width: 90%;
-}
-
-.container-flex-right {
+/*Tips and tricks container */
+.container-flex-right-one {
     width: 80px;
     height: 80px;
     background-color: #231f20;
+    align-self: center;
     border-radius: 50%;
     position: relative;
-    top: 210px;
-    margin: 90px;
-    right: 90px;
-
-    
-
-    
+    top: 30px;
+    left: 200px;
 
 }
 
+/* Diagnosis container */
+.container-flex-right-two {
+    width: 80px;
+    height: 80px;
+    background-color: #231f20;
+    align-self: center;
+    border-radius: 50%;
+    position: relative;
+    left: 180px;
+    bottom: 50px;
+}
 
-.container-border-right {
+
+.container-border-right-one {
+    width: 100px;
+    height: 50px;
+    background-color: #e98784;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    z-index: -1;
+    position: relative;
+    top: 40px;
+    right: 10px;
+}
+
+.container-border-right-two {
 
     width: 100px;
     height: 50px;
     background-color: #e98784;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    z-index: -1;
     position: relative;
     top: 40px;
-    z-index: -1;
     right: 10px;
-
 }
 
-.flex-container-left {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    height: 300px;
-    width: 90%;
-    
-
-    
-}
-
-
-.container-flex-left {
+/* Contact container */
+.container-flex-left-one {
     width: 80px;
     height: 80px;
     background-color: #231f20;
     border-radius: 50%;
     align-self: center;
     position: relative;
-    margin: 60px;
-    right: 30px;
-    bottom: -5px;
+    right: 180px;
+    bottom: 50px;
+
+}
+
+/* Info container */
+.container-flex-left-two {
+    width: 80px;
+    height: 80px;
+    background-color: #231f20;
+    border-radius: 50%;
+    align-self: center;
+    position: relative;
+    right: 200px;
+    top: 30px;
 
 }
 
 
-.container-border-left {
+.container-border-left-one {
     width: 100px;
     height: 50px;
     background-color: #e98784;
@@ -215,6 +222,19 @@ body {
     z-index: -1;
     top: 40px;
     right: 10px;
+}
+
+.container-border-left-two {
+    width: 100px;
+    height: 50px;
+    background-color: #e98784;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    z-index: -1;
+    top: 40px;
+    right: 10px;
+    
 
  
 }
@@ -249,58 +269,61 @@ body {
 .text-box {
     display: flex;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-color: #231f20;
     justify-content: center;
     align-items: center;
+    flex-flow: wrap;
 }
 
 .half-circle-box {
     display: flex;
-    height: 1000px;
-    width: 1000px;
+    height: 300px;
+    width: 300px;
     background-color: #847365;
     border-radius: 50%;
+    box-shadow: inset 5px #e98784;
     position: relative;
-    left: -870px;
-    box-shadow: inset -20px 0 0 #cb7775;
-    
+    bottom: 50px;
 }
 
 .half-circle-header {
-    font-size: 35px;
+    font-size: 20px;
     text-transform: uppercase;
-    position: absolute;
-    left: 550px;
-    top: 200px;
-    overflow: hidden;
     color: white;
-    inline-size: 300px;
+    text-align: center;
+    position: relative;
+    clear: both;
+    left: 90px;
+    top: 60px;
+    line-break: strict;
+    text-decoration: underline 2px;
 
 }
 
 .half-circle-text {
     position: relative;
-    left: 550px;
-    font-size: 30px;
-    color: #231f20;
-    inline-size: 300px;
-    height:  300px;
-    top: 300px;
+    font-size: 15px;
+    color: #383838;
+    text-align: center;
+    clear: both;
+    top: 150px;
+    right: 65px;
+    line-height: 12px;
     
     }
 
 
 
 .box-text {
-    font-size: 32px;
+    font-size: 11px;
     color: white;
     position: relative;
-    bottom: 100px;
-    inline-size: 800px;
+    bottom: 180px;
+    inline-size: 300px;
     color: #cb7775;
-    right: 500px;
     font-family: 'cooper hewitt';
+    text-align: center;
 
 }
 
@@ -358,4 +381,9 @@ body {
     list-style: none;
     display: inline-block;
 }
+
+
+/* Media Queries */
+
+
 
