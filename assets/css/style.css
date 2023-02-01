@@ -96,7 +96,7 @@ body {
 .hero-section {
 
     display: flex;
-    flex-flow: wrap;
+    flex-flow: nowrap;
     justify-content: center;
     align-items: center;
     height: 800px;
@@ -245,7 +245,6 @@ body {
     font-family: 'league spartan';
     text-decoration: none;
     color: white;
-    text-align: center;
     z-index: 1;
 }
 
@@ -264,64 +263,156 @@ body {
 
 .text-box {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     width: 100%;
-    height: 800px;
+    height: 700px;
     background-color: #231f20;
-    justify-content: center;
-    align-items: center;
 }
 
-.half-circle-box {
+.circle-box {
     display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-flow: column;
+    margin-top: 20px;
+    gap: 10px; 
     height: 300px;
     width: 300px;
     background-color: #847365;
     border-radius: 50%;
-    box-shadow: inset 5px #e98784;
-    position: relative;
-    bottom: 50px;
+
 }
 
-.half-circle-header {
-    font-size: 20px;
+.circle-header {
+    font-size: 15px;
+    text-align: center;
     text-transform: uppercase;
     color: white;
-    text-align: center;
-    position: relative;
-    left: 90px;
-    top: 60px;
-    text-decoration: underline 2px;
+    font-family: 'cooper hewitt';
 
 }
 
-.half-circle-text {
-    display: flex;
-    position: relative;
-    font-size: 15px;
+.circle-text {
+    
+    font-size: 10px;
     color: #383838;
+    line-height: 15px;
+    font-family: 'cooper hewitt';
     text-align: center;
-    top: 150px;
-    right: 65px;
-    line-height: 12px;
-    text-decoration: underline;
     
     }
 
 
 
 .box-text {
-    display: flex;
-    font-size: 11px;
+    font-size: 12px;
     color: white;
-    position: relative;
-    bottom: 180px;
-    inline-size: 300px;
     color: #cb7775;
     font-family: 'cooper hewitt';
     text-align: center;
+    position: relative;
+    margin-top: 50px;
+
 
 }
+
+
+
+/* About us */
+
+.about-us {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr;
+    height: 400px;
+    background-color: #c6b6a9;
+    justify-content: center;
+
+}
+
+
+.about-us-big-circle {
+    display: flex;
+    display: grid;
+    width: 320px;
+    height: 320px;
+    grid-row: 1;
+    grid-column: 2;
+    z-index: 1;
+    background-color: #231f20;
+    border-radius: 50%;
+    margin-top: 40px;
+    align-items: center;
+    justify-self: center;
+
+
+}
+
+.about-us-big-circle p {
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    inline-size: 80%;
+    margin-left: 10%;
+
+}
+
+
+.about-us-circle {
+    height: 90px;
+    width: 90px;
+    grid-column: 2;
+    grid-row: 1;
+    border-radius: 50%;
+    background-color: #e88684;
+    z-index: 2;
+    align-self: flex-start;
+    margin-left: 2.5px;
+    margin-top: 5px;
+    
+}
+
+.about-us-small-circle-one {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #c7745e;
+    z-index: 2;
+    margin-top: 25px;
+    margin-left: 100px;
+
+}
+
+.about-us-small-circle-two {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #eeaa94;
+    z-index: 2;
+    margin-top: 300px;
+    margin-left: 230px;
+}
+
+
+
+.about-us-container-text {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    line-height: 30px;
+    font-family: 'cooper hewitt';
+}
+
+
+
+
 
 
 
@@ -390,60 +481,30 @@ body {
 /* Media Queries */
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 380px) {
+
     .container-flex-left-one {
-        right: 170px;
+        right: 120px;
+        bottom: 170px;
     }
     
     .container-flex-right-two {
-        left: 170px;
+        left: 120px;
+        bottom: 170px;
     }
-    
-    
+
+
 }
 
-@media only screen and (min-width: 600px) {
-
-    .text-box {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-start;
-    }
-
-    .half-circle-box {
-        position: relative;
-        right: 150px;
-    }
-
-    .half-circle-header {
-        font-size: 15px;
-        left: 145px;
-        inline-size: 70%;
-        top: 80px;
-    }
-
-    .half-circle-text {
-        font-size: 11px;
-        left: 0px;
-        inline-size: 70%;
-        top: 130px;
-
-    }
-
-    .box-text {
-        position: relative;
-        bottom: 30px;
-        font-size: 12px;
-        inline-size: 50%;
-        right: 40px
-    }
-
-}
 
 
 @media only screen and (min-width: 1366px) {
     /*Hero */
 
+    .hero-section {
+
+        height: 1200px;
+    }
 
    .hero-circle {
         width: 550px;
@@ -468,6 +529,7 @@ body {
         height: 140px;
         width: 140px;
         left: 590px;
+        top: -170px;
 
     }
 
@@ -484,8 +546,7 @@ body {
         height: 140px;
         width: 140px;
         left: 655px;
-        top: 30px;
-
+        top: -170px;
     }
 
     .container-border-right-two {
@@ -500,8 +561,7 @@ body {
         height: 140px;
         width: 140px;
         right: 450px;
-        top: 30px;
-
+        top: -170px;
 
     }
 
@@ -517,7 +577,7 @@ body {
         height: 140px;
         width: 140px;
         right: 800px;
-        bottom: 5px;
+        top: -170px
 
     }
 
@@ -537,41 +597,40 @@ body {
 
     /* Text box */
 
+
     .box-text {
-
-        font-size: 16px;
-        inline-size: 40%;
-
-    }
-
-
-
-
-    .half-circle-box {
-        width: 600px;
-        height: 600px;
-        right: 300px;
-
-    }
-
-    .half-circle-header {
-        left: 345px;
-        inline-size: 30%;
-        font-size: 24px;
-        top: 140px;
-    }
-
-    .half-circle-text {
-
-        top: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 20px;
-        left: 160px;
-        inline-size: 30%;
-        line-height: 20px;
+    }
+
+
+
+
+    .circle-box {
+        width: 400px;
+        height: 400px;
+    }
+
+    .circle-header {
+
+        font-size: 24px;
+
+
+    }
+
+    .circle-text {
+        font-size: 18px;
+
     
     }
 
 
+
+    .about-us-big-container {
+
+    }
 
 
 
