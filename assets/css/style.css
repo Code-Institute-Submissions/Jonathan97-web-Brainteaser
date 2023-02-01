@@ -330,7 +330,7 @@ body {
 
 .about-us {
     display: grid;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-columns: none;
     grid-template-rows: 1fr;
     height: 400px;
     background-color: #c6b6a9;
@@ -443,7 +443,7 @@ body {
 
 
 
-.diagnosis-main-header h1 {
+.your-diagnosis {
     font-size: 30px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -496,7 +496,6 @@ body {
 }
 
 .diagnosis-box {
-    display: flexbox;
     background-color: #231f20;
     height: 200px;
     width: 80%;
@@ -519,6 +518,95 @@ body {
 
 }
 
+/* End of diagnosis.html */
+
+/* Start of join.html */
+
+.sign-up-section {
+    display: flex;
+    flex-flow: row wrap;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-form {
+    height: 250px;
+    width: 300px;
+    background-color: #231f20;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border-radius: 25px;
+    gap: 20px;
+}
+
+.sign-up-newsletter-box {
+    height: 600px;
+    background-color: white;
+
+}
+
+.sign-up-label {
+    align-self: flex-start;
+    font-size: 36px;
+    position: relative;
+    bottom: 10px;
+    color: white;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+}
+
+#fname {
+    background-color: #e88684;
+    color: #fafafa;
+    width: 250px;
+    height: 30px;
+    text-decoration: none;
+    font-family: 'Barlow';
+    border-radius: 25px;
+    align-self: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+    
+
+}
+
+#fname::placeholder {
+    color: white;
+}
+
+#email {
+    background-color: #e88684;
+    color: #fafafa;
+    width: 250px;
+    height: 30px;
+    text-decoration: none;
+    font-family: 'Barlow';
+    border-radius: 25px;
+    align-self: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+
+}
+
+#submit {
+    width: 80px;
+    height: 30px;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    background-color: #e88684;
+    align-self: flex-end;
+    margin-top: 60px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+#email::placeholder {
+    color: white;
+}
 
 
 
