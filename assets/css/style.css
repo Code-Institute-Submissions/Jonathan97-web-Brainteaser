@@ -53,6 +53,11 @@ body {
     font-weight: 700;
 }
 
+.main_header a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Navigation */
 
 .nav {
@@ -295,12 +300,14 @@ body {
 
 .circle-text {
     
-    font-size: 10px;
+    font-size: 12px;
     color: #231f20;
-    line-height: 15px;
+    line-height: 110%;
+    width: 90%;
     font-family: 'Barlow';
     text-align: center;
-    letter-spacing: 0.5px;
+    letter-spacing: 1.5px;
+    margin-left: 5%;
     
     }
 
@@ -308,7 +315,6 @@ body {
 
 .box-text {
     font-size: 12px;
-    color: white;
     color: #cb7775;
     font-family: 'Barlow';
     text-align: center;
@@ -396,7 +402,7 @@ body {
 
 .about-us-container-text {
     font-size: 24px;
-    color: white;
+    color: #231f20;
     text-align: center;
     margin-top: 25px;
     line-height: 30px;
@@ -431,35 +437,48 @@ body {
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    background-color: #231f20;
-    height: 200px;
+    background-color: #c6b6a9;
+    height: 170px;
 }
 
-.diagnosis-header {
-    font-family: 'league spartan';
-    margin-top: 50px;
 
-}
 
-.diagnosis-header h1 {
+.diagnosis-main-header h1 {
     font-size: 30px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    color: white;
+    color: #231f20;
     text-align: center;
-
-
 }
 
-.diagnosis-header {
+
+
+.diagnosis-main-header {
     text-align: center;
     font-size: 10px;
     letter-spacing: 0.5px;
     line-height: 20px;
     text-transform: uppercase;
     color: white;
+    font-family: 'league spartan';
+    margin-top: 150px;
+
+
     
 }
+
+.diagnosis-header {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
 
 
 /* Diagnosis main content */
@@ -472,16 +491,31 @@ body {
     justify-items: center;
     gap: 10px;
     height: 1700px;
-    margin-top: 50px;
+    margin-top: 100px;
 
 }
 
 .diagnosis-box {
     display: flexbox;
-    background-color: black;
+    background-color: #231f20;
     height: 200px;
     width: 80%;
     border-radius: 25px;
+
+}
+
+
+.diagnosis-text {
+    color: #cb7775;
+    font-family: 'league spartan';
+    font-size: 11px;
+    line-height: 15px;
+    margin-left: 5px;
+    letter-spacing: 0.7px;
+}
+
+.diagnosis-list {
+    list-style: none;
 
 }
 
@@ -509,7 +543,7 @@ body {
     height: 85px;
     position: absolute;
     margin-top: auto;
-
+    border-top: 5px solid #231f20;
 }
 
 .footer_text {
