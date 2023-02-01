@@ -1,7 +1,7 @@
     
 /* Text Google Fonts "League Spartan" */
     @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
-    @import url('https://fonts.cdnfonts.com/css/cooper-hewitt?styles=34281');
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
 
 /* Reset */
 
@@ -72,8 +72,7 @@ body {
     text-decoration: none;
     color: black;
     padding: 2px;
-    font-family: 'cooper hewitt';
-    font-weight: 709;
+    font-family: 'Barlow';
     
 
 }
@@ -288,7 +287,8 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: white;
-    font-family: 'cooper hewitt';
+    font-family: 'Barlow';
+    letter-spacing: 0.5px;
 
 }
 
@@ -297,8 +297,9 @@ body {
     font-size: 10px;
     color: #383838;
     line-height: 15px;
-    font-family: 'cooper hewitt';
+    font-family: 'Barlow';
     text-align: center;
+    letter-spacing: 0.5px;
     
     }
 
@@ -308,7 +309,7 @@ body {
     font-size: 12px;
     color: white;
     color: #cb7775;
-    font-family: 'cooper hewitt';
+    font-family: 'Barlow';
     text-align: center;
     position: relative;
     margin-top: 50px;
@@ -330,7 +331,7 @@ body {
 
 }
 
-
+/* About us containers */
 .about-us-big-circle {
     display: flex;
     display: grid;
@@ -348,16 +349,6 @@ body {
 
 }
 
-.about-us-big-circle p {
-    text-align: center;
-    color: white;
-    font-size: 10px;
-    line-height: 12px;
-    letter-spacing: 0.5px;
-    inline-size: 80%;
-    margin-left: 10%;
-
-}
 
 
 .about-us-circle {
@@ -400,6 +391,7 @@ body {
 }
 
 
+/* About us text */
 
 .about-us-container-text {
     font-size: 24px;
@@ -407,12 +399,19 @@ body {
     text-align: center;
     margin-top: 25px;
     line-height: 30px;
-    font-family: 'cooper hewitt';
+    font-family: 'Barlow';
 }
 
+.about-us-big-circle p {
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    inline-size: 80%;
+    margin-left: 10%;
 
-
-
+}
 
 
 
