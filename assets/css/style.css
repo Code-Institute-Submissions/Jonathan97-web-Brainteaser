@@ -89,6 +89,7 @@ body {
     display: inline-block;
 }
 
+/* Index */
 
 /* Hero */
 
@@ -274,7 +275,7 @@ body {
     justify-content: center;
     flex-flow: column;
     margin-top: 20px;
-    gap: 10px; 
+    gap: 10px;
     height: 300px;
     width: 300px;
     background-color: #847365;
@@ -283,7 +284,7 @@ body {
 }
 
 .circle-header {
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     text-transform: uppercase;
     color: white;
@@ -295,7 +296,7 @@ body {
 .circle-text {
     
     font-size: 10px;
-    color: #383838;
+    color: #231f20;
     line-height: 15px;
     font-family: 'Barlow';
     text-align: center;
@@ -413,6 +414,89 @@ body {
 
 }
 
+/* End of index.html */
+
+/* Start of diagnosis.html */
+
+/* Diagnosis header */
+
+.diagnosises {
+    background-color: #847365;
+    height: 2000px;
+    
+}
+
+.diagnosis-header-box {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #231f20;
+    height: 200px;
+}
+
+.diagnosis-header {
+    font-family: 'league spartan';
+    margin-top: 50px;
+
+}
+
+.diagnosis-header h1 {
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+
+
+}
+
+.diagnosis-header {
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+
+/* Diagnosis main content */
+
+
+.diagnosis-boxes {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    height: 1700px;
+    margin-top: 50px;
+
+}
+
+.diagnosis-box {
+    display: flexbox;
+    background-color: black;
+    height: 200px;
+    width: 80%;
+    border-radius: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Footer */
@@ -477,7 +561,7 @@ body {
 
 
 
-/* Media Queries */
+/* Media queries */
 
 
 @media only screen and (max-width: 380px) {
@@ -614,26 +698,12 @@ body {
 
     .circle-header {
 
-        font-size: 24px;
+        font-size: 26px;
 
 
     }
 
     .circle-text {
-        font-size: 18px;
-
-    
+        font-size: 20px;
     }
-
-
-
-    .about-us-big-container {
-
-    }
-
-
-
 }
-
-
-
