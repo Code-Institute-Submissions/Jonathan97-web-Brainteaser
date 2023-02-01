@@ -522,34 +522,72 @@ body {
 
 /* Start of join.html */
 
+/* Newsletter */
+.newsletter-box {
+    height: 600px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter {
+    height: 350px;
+    width: 290px;
+    background-color: #231f20;
+    border-radius: 25px;
+    margin-top: px;
+}
+
+.header-newsletter {
+    align-self: flex-start;
+    font-size: 30px;
+    position: relative;
+    bottom: 10px;
+    margin-left: 5px;
+    color: white;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.paragraph-newsletter {
+    color: #e88684;
+    text-align: center;
+    font-family: 'Barlow';
+    line-height: 15px;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+
+/* Sign up form */
 .sign-up-section {
     display: flex;
-    flex-flow: row wrap;
-    height: 1000px;
+    flex-flow: column;
+    height: 300px;
     justify-content: center;
     align-items: center;
 }
 
 .sign-up-form {
     height: 250px;
-    width: 300px;
+    width: 290px;
     background-color: #231f20;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     align-items: center;
     border-radius: 25px;
-    gap: 20px;
-}
-
-.sign-up-newsletter-box {
-    height: 600px;
-    background-color: white;
+    gap: 10px;
+    margin-bottom: 200px;
 
 }
 
-.sign-up-label {
+
+.sign-up-header {
     align-self: flex-start;
-    font-size: 36px;
+    font-size: 30px;
     position: relative;
     bottom: 10px;
     color: white;
@@ -558,7 +596,18 @@ body {
 
 }
 
-#fname {
+.diagnosis-label {
+    display: flex;
+    color: white;
+    position: relative;
+    text-transform: uppercase;
+    bottom: 40px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-family: 'Barlow';
+}
+
+#name {
     background-color: #e88684;
     color: #fafafa;
     width: 250px;
@@ -566,6 +615,7 @@ body {
     text-decoration: none;
     font-family: 'Barlow';
     border-radius: 25px;
+    justify-self: center;
     align-self: center;
     text-align: center;
     letter-spacing: 0.5px;
@@ -574,7 +624,8 @@ body {
 
 }
 
-#fname::placeholder {
+
+#name::placeholder {
     color: white;
 }
 
@@ -589,6 +640,7 @@ body {
     align-self: center;
     text-align: center;
     letter-spacing: 0.5px;
+    margin-bottom: 40px;
 
 }
 
@@ -602,11 +654,49 @@ body {
     margin-top: 60px;
     margin-right: 10px;
     justify-content: center;
+    font-family: 'Barlow';
+}
+
+#submit:hover {
+    color: #231f20;
 }
 
 #email::placeholder {
     color: white;
 }
+
+#checkbox {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    color: #e88684;
+    font-family: 'Barlow';
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+    bottom: 130px;
+    gap: 5px;
+    margin-bottom: 10px
+}
+
+#checkbox2 {
+    color: #e88684;
+    font-family: 'Barlow';
+    text-transform: uppercase;
+    font-size: 12px;
+    display: flex;
+    flex-flow: column;
+    gap: 5px;
+    position: relative;
+    bottom: 226px;
+    left: 50px;
+
+}
+
+/* End of join.html */
+
+
 
 
 
