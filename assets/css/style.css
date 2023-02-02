@@ -1,12 +1,20 @@
-    
 /* Text Google Fonts "League Spartan" */
-    @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
 
 /* Reset */
 
+:root {
+    --circle: 275px;
+}
 
-body, html {
+html {
+    scroll-behavior: smooth;
+}
+
+
+body,
+html {
 
     height: 100%;
     width: 100%;
@@ -36,12 +44,12 @@ body {
 .header {
     background-color: #847365;
     height: 65px;
-    width:  100%;
+    width: 100%;
     position: absolute;
 }
 
 .main_header {
-    color:  black;
+    color: black;
     float: left;
     position: relative;
     left: 5px;
@@ -58,22 +66,18 @@ body {
 
 /* Navigation */
 
-.nav {
-    position: relative;
-    width: auto;
-    
-}
+
 
 .nav_links {
     list-style: none;
     display: flex;
     flex-flow: column nowrap;
     letter-spacing: 1px;
-    
+
 }
 
 .nav_links a {
- 
+
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -102,35 +106,27 @@ body {
 /* Hero */
 
 .hero-section {
-
     display: flex;
-    flex-flow: nowrap;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 850px;
 
-   
+
 }
 
 .hero-circle {
+    width: 200px;
     display: flex;
-    width: 275px;
-    height: 275px;
+    justify-self: center;
     border-radius: 50%;
     background-color: #847365;
-    position: absolute;
-    align-self: center;
     z-index: -2;
-    top: 200px;
-
+    position: absolute;
 }
 
 .hero-picture {
-    width: 200px;
-    height: auto;
+    max-width: 100%;
     align-self: center;
-    display: block;
-    top: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -138,27 +134,25 @@ body {
 /* Containers for front page */
 
 /*Tips and tricks container */
-.container-flex-right-one {
-    width: 80px;
-    height: 80px;
+
+.mini-circle {
+    width: calc(var(--circle) * 0.3);
+    height: calc(var(--circle) * 0.3);
     background-color: #231f20;
     align-self: center;
     border-radius: 50%;
     position: relative;
-    top: 30px;
+}
+
+.container-flex-right-one {
+    top: 130px;
     left: 200px;
 }
 
 /* Diagnosis container */
 .container-flex-right-two {
-    width: 80px;
-    height: 80px;
-    background-color: #231f20;
-    align-self: center;
-    border-radius: 50%;
-    position: relative;
     left: 180px;
-    bottom: 50px;
+    bottom: -30px;
 }
 
 
@@ -189,26 +183,14 @@ body {
 
 /* Contact container */
 .container-flex-left-one {
-    width: 80px;
-    height: 80px;
-    background-color: #231f20;
-    border-radius: 50%;
-    align-self: center;
-    position: relative;
     right: 180px;
-    bottom: 50px;
+    bottom: -30px;
 }
 
 /* Info container */
 .container-flex-left-two {
-    width: 80px;
-    height: 80px;
-    background-color: #231f20;
-    border-radius: 50%;
-    align-self: center;
-    position: relative;
     right: 200px;
-    top: 30px;
+    top: 130px;
 }
 
 
@@ -235,6 +217,7 @@ body {
     top: 40px;
     right: 10px;
 }
+
 /* Links and text for containers */
 
 .flex-container-text {
@@ -295,7 +278,7 @@ body {
 }
 
 .circle-text {
-    
+
     font-size: 12px;
     color: #231f20;
     line-height: 110%;
@@ -304,8 +287,8 @@ body {
     text-align: center;
     letter-spacing: 1.5px;
     margin-left: 5%;
-    
-    }
+
+}
 
 
 
@@ -364,7 +347,7 @@ body {
     align-self: flex-start;
     margin-left: 2.5px;
     margin-top: 5px;
-    
+
 }
 
 .about-us-small-circle-one {
@@ -423,8 +406,7 @@ body {
 
 .diagnosises {
     background-color: #847365;
-    height: 2000px;
-    
+    padding-bottom: 20px;
 }
 
 .diagnosis-header-box {
@@ -453,7 +435,7 @@ body {
     color: white;
     font-family: 'league spartan';
     margin-top: 150px;
-   
+
 }
 
 .diagnosis-header {
@@ -475,27 +457,26 @@ body {
     flex-flow: column nowrap;
     align-items: center;
     gap: 10px;
-    height: 1700px;
     margin-top: 100px;
+
 
 }
 
 .diagnosis-box {
     background-color: #231f20;
-    height: 200px;
     width: 90%;
-    border-radius: 25px;
+    border-radius: 20px;
 
 
 }
 
 .diagnosis-text {
     color: #cb7775;
-    font-family: 'league spartan';
-    font-size: 9.5px;
-    line-height: 15px;
+    font-family: 'Barlow';
+    line-height: 1.1;
     margin-left: 5px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.5;
+    padding-bottom: 10px;
 }
 
 .diagnosis-list {
@@ -506,7 +487,6 @@ body {
 .learn-more {
     margin-left: 5px;
     color: white;
-    font-size: 14px;
 
 }
 
@@ -698,7 +678,7 @@ body {
 
 .footer {
 
-   
+
     background-color: #847365;
     width: 100%;
     height: 85px;
@@ -713,7 +693,7 @@ body {
     color: black;
     position: relative;
     top: 20px;
-    
+
 }
 
 /* Footer links to social medias */
@@ -750,19 +730,34 @@ body {
 
 }
 
+.footer-thanks {
+    position: absolute;
+    bottom: 0;
+}
+
 /* Media queries */
 
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 600px) {
 
     .container-flex-left-one {
-        right: 120px;
-        bottom: 170px;
+        right: 130px;
+        bottom: 90px;
     }
-    
+
     .container-flex-right-two {
-        left: 120px;
-        bottom: 170px;
+        left: 130px;
+        bottom: 90px;
+    }
+
+    .container-flex-right-one {
+        left: 210px;
+        top: 90px;
+    }
+
+    .container-flex-left-two {
+        right: 210px;
+        top: 90px;
     }
 
 
@@ -771,385 +766,399 @@ body {
 
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 601px) {
 
-.about-us {
-    height: 500px;
-    
- }
+    .about-us {
+        height: 500px;
 
-/* About us containers */
-.about-us-big-circle {
-    width: 420px;
-    height: 420px;
+    }
 
+    /* About us containers */
+    .about-us-big-circle {
+        width: 420px;
+        height: 420px;
+
+
+    }
+
+    .about-us-circle {
+        height: 90px;
+        width: 90px;
+        margin-left: 20px;
+        margin-top: 30px;
+
+    }
+
+    .about-us-small-circle-one {
+        width: 60px;
+        height: 60px;
+        margin-top: 20px;
+        margin-left: 120px;
+
+    }
+
+    .about-us-small-circle-two {
+        width: 80px;
+        height: 80px;
+        margin-top: 365px;
+        margin-left: 300px;
+    }
+
+    /* About us text */
+
+    .about-us-container-text {
+        font-size: 24px;
+        margin-top: 20px;
+        letter-spacing: 0.5px;
+        inline-size: 100%;
+    }
+
+    .about-us-big-circle p {
+        font-size: 14px;
+        line-height: 13.5px;
+        letter-spacing: 0.5px;
+        inline-size: 80%;
+    }
+
+    .box-text {
+        font-size: 16px;
+    }
+
+
+
+    /* Diagnosis text */
+
+    .your-diagnosis {
+        font-size: 40px;
+        line-height: 32px;
+    }
+
+    .diagnosis-main-header {
+        text-align: center;
+        font-size: 22px;
+        letter-spacing: 0.5px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: white;
+        margin-top: 143px;
+
+    }
+
+
+    .diagnosis-header {
+        font-size: 30px;
+    }
+
+    .diagnosis-text {
+    }
+
+    .learn-more {
+        font-size: 16px;
+
+    }
+
+
+    .container-flex-left-one { 
+        right: 180px;
+        bottom: -10px;
+    }
+
+    .container-flex-left-two {
+        top: 100px;
+        right: 200px;
+    }
+
+    .container-flex-right-one {
+        top: 100px;
+        left: 200px;
+
+    }
+
+    .container-flex-right-two {
+        right: 180px;
+        bottom: -10px;
+    }
 
 }
 
-.about-us-circle {
-    height: 90px;
-    width: 90px;
-    margin-left: 20px;
-    margin-top: 30px;
-    
-}
-
-.about-us-small-circle-one {
-    width: 60px;
-    height: 60px;
-    margin-top: 20px;
-    margin-left: 120px;
-
-}
-
-.about-us-small-circle-two {
-    width: 80px;
-    height: 80px;
-    margin-top: 365px;
-    margin-left: 300px;
-}
-
-/* About us text */
-
-.about-us-container-text {
-    font-size: 24px;
-    margin-top: 20px;
-    letter-spacing: 0.5px;
-    inline-size: 100%;
-}
-
-.about-us-big-circle p {
-    font-size: 14px;
-    line-height: 13.5px;
-    letter-spacing: 0.5px;
-    inline-size: 80%;
-}
-
-.box-text {
-    font-size: 16px;
-}
-
-
-
-/* Diagnosis text */
-
-.your-diagnosis {
-    font-size: 40px;
-    line-height: 32px;
-}
-.diagnosis-main-header {
-    text-align: center;
-    font-size: 22px;
-    letter-spacing: 0.5px;
-    line-height: 25px;
-    text-transform: uppercase;
-    color: white;
-    margin-top: 143px;
-   
-}
-
-
-.diagnosis-header {
-    font-size: 30px;
-}
-
-.diagnosis-text {
-    font-size: 16px;
-    line-height: 22px;
-    letter-spacing: 0.2px;
-}
-
-.learn-more {
-    font-size: 16px;
-
-}
-
-}
-
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1135px) {
 
     /*Hero */
-.hero-section {
-      height: 1200px;
-}
 
-.hero-circle {
-    width: 550px;
-    height: 550px;
-    top: 150px;
-        
-    
-}
+    .hero-circle {
+        width: 400px;
+        height: 400px;
+        top: 200px;
 
-.hero-picture {
-    width: 400px;
-    height: 400px;
-    bottom: 200px;
-}
-
-
-
-/* Flex Containers */
-
-/* Tips and tricks container */
-.container-flex-right-one {
-    height: 140px;
-    width: 140px;
-    left: 590px;
-    top: -170px;
-
-}
-
-.container-border-right-one {
-    height: 80px;
-    width: 160px;
-    border-bottom-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-    top: 75px;
-}
-
-/* Diagnosis container */
-.container-flex-right-two {
-    height: 140px;
-    width: 140px;
-    left: 655px;
-    top: -170px;
-}
-
-.container-border-right-two {
-    height: 80px;
-    width: 160px;
-    border-bottom-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-    top: 75px;
-}
-/* Contact container */
-.container-flex-left-one {
-    height: 140px;
-    width: 140px;
-    right: 450px;
-    top: -170px;
 
     }
 
-.container-border-left-one {
-    height: 80px;
-    width: 160px;
-    border-bottom-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-    top: 75px;
-}
-/* Info container */
-.container-flex-left-two {
-    height: 140px;
-    width: 140px;
-    right: 800px;
-    top: -170px
-
-}
-
-.container-border-left-two {
-    height: 80px;
-    width: 160px;
-    border-bottom-left-radius: 80px;
-    border-bottom-right-radius: 80px;
-    top: 75px;
-}
-
-/* Text for containers */
-
-.flex-container-text {
-    font-size: 26px;
-}
-
-.tips-tricks {
-
-    position: relative;
-    bottom: 25px;
-}
-
-/* Text box */
-
-
-.box-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-}
+    .hero-picture {
+        width: 400px;
+        height: 400px;
+        bottom: 200px;
+    }
 
 
 
+    /* Flex Containers */
 
-.circle-box {
-    width: 400px;
-    height: 400px;
-}
+    /* Tips and tricks container */
+    .container-flex-right-one {
+        height: 140px;
+        width: 140px;
+        left: 500px;
+        top: -20px;
 
-.circle-header {
-    font-size: 26px;
+    }
 
+    .container-border-right-one {
+        height: 80px;
+        width: 160px;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+        top: 75px;
+    }
 
-}
+    /* Diagnosis container */
+    .container-flex-right-two {
+        height: 140px;
+        width: 140px;
+        left: 535px;
+        top: -20px;
+    }
 
-.circle-text {
-    font-size: 20px;
-}
+    .container-border-right-two {
+        height: 80px;
+        width: 160px;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+        top: 75px;
+    }
 
+    /* Contact container */
+    .container-flex-left-one {
+        height: 140px;
+        width: 140px;
+        right: 360px;
+        top: -20px;
 
-.about-us {
-    height: 700px;
+    }
 
-    
- }
+    .container-border-left-one {
+        height: 80px;
+        width: 160px;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+        top: 75px;
+    }
 
-/* About us containers */
-.about-us-big-circle {
-    width: 600px;
-    height: 600px;
+    /* Info container */
+    .container-flex-left-two {
+        height: 140px;
+        width: 140px;
+        right: 680px;
+        top: -20px
+    }
 
+    .container-border-left-two {
+        height: 80px;
+        width: 160px;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+        top: 75px;
+    }
 
-}
+    /* Text for containers */
 
+    .flex-container-text {
+        font-size: 26px;
+    }
 
+    .tips-tricks {
 
-.about-us-circle {
-    height: 120px;
-    width: 120px;
-    margin-left: 20px;
-    margin-top: 30px;
-    
-}
+        position: relative;
+        bottom: 25px;
+    }
 
-.about-us-small-circle-one {
-    width: 80px;
-    height: 80px;
-    margin-top: 20px;
-    margin-left: 150px;
-
-}
-
-.about-us-small-circle-two {
-    width: 100px;
-    height: 100px;
-    margin-top: 530px;
-    margin-left: 400px;
-}
-
-
-/* About us text */
-
-.about-us-container-text {
-    font-size: 30px;
-    margin-top: 25px;
-    inline-size: 100%;
-}
-
-.about-us-big-circle p {
-    font-size: 24px;
-    line-height: 18px;
-    inline-size: 80%;
-    
-
-}
-
-/* Diagnosis text */
-
-.your-diagnosis {
-    font-size: 50px;
-    line-height: 40px;
-}
-.diagnosis-main-header {
-    text-align: center;
-    font-size: 30px;
-    letter-spacing: 0.5px;
-    line-height: 40px;
-    text-transform: uppercase;
-    color: white;
-    margin-top: 135px;
-   
-}
+    /* Text box */
 
 
-.diagnosis-header {
-    font-size: 40px;
-}
+    .box-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
 
-.diagnosis-text {
-    font-size: 24px;
-    letter-spacing: 0.2px;
-    line-height: 22px;
-}
 
-.learn-more {
-    font-size: 24px;
 
-}
 
-/* Sign up form */
+    .circle-box {
+        width: 400px;
+        height: 400px;
+    }
 
-.sign-up-section {
-    display: flex;
-    flex-flow: column;
-    height: 400px;
-    justify-content: center;
-    align-items: center;
-}
+    .circle-header {
+        font-size: 26px;
 
-.sign-up-form {
-    background-color: #231f20;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    border-radius: 25px;
-    zoom: 130%;
-    margin-bottom: 150px;
 
-}
+    }
 
-#submit {
-    position: relative;
-    top: 20px;
-}
+    .circle-text {
+        font-size: 20px;
+    }
 
-/* Newsletter */
-.newsletter-box {
-    height: 650px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-}
 
-.newsletter {
-    height: 350px;
-    width: 370px;
-    background-color: #231f20;
-    border-radius: 25px;
-    zoom: 130%;
-}
+    .about-us {
+        height: 700px;
 
-.header-newsletter {
-    align-self: flex-start;
-    font-size: 32px;
-    position: relative;
-    bottom: 10px;
-    margin-left: 5px;
-    color: white;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-}
 
-.paragraph-newsletter {
-    color: #e88684;
-    text-align: center;
-    font-family: 'Barlow';
-    line-height: 15px;
-    font-size: 20px;
-    margin-left: 5px;
-    margin-right: 5px;
+    }
 
-}
+    /* About us containers */
+    .about-us-big-circle {
+        width: 600px;
+        height: 600px;
+
+
+    }
+
+
+
+    .about-us-circle {
+        height: 120px;
+        width: 120px;
+        margin-left: 20px;
+        margin-top: 30px;
+
+    }
+
+    .about-us-small-circle-one {
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 150px;
+
+    }
+
+    .about-us-small-circle-two {
+        width: 100px;
+        height: 100px;
+        margin-top: 530px;
+        margin-left: 400px;
+    }
+
+
+    /* About us text */
+
+    .about-us-container-text {
+        font-size: 30px;
+        margin-top: 25px;
+        inline-size: 100%;
+    }
+
+    .about-us-big-circle p {
+        font-size: 24px;
+        line-height: 18px;
+        inline-size: 80%;
+
+
+    }
+
+    /* Diagnosis text */
+
+    .your-diagnosis {
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    .diagnosis-main-header {
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 0.5px;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: white;
+        margin-top: 135px;
+
+    }
+
+
+    .diagnosis-header {
+        font-size: 40px;
+    }
+
+
+    .learn-more {
+        font-size: 24px;
+
+    }
+
+    /* Sign up form */
+
+    .sign-up-section {
+        display: flex;
+        flex-flow: column;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sign-up-form {
+        background-color: #231f20;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        border-radius: 25px;
+        zoom: 130%;
+        margin-bottom: 150px;
+
+    }
+
+    #submit {
+        position: relative;
+        top: 20px;
+    }
+
+    /* Newsletter */
+    .newsletter-box {
+        height: 650px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .newsletter {
+        height: 350px;
+        width: 370px;
+        background-color: #231f20;
+        border-radius: 25px;
+        zoom: 130%;
+    }
+
+    .header-newsletter {
+        align-self: flex-start;
+        font-size: 32px;
+        position: relative;
+        bottom: 10px;
+        margin-left: 5px;
+        color: white;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+    }
+
+    .paragraph-newsletter {
+        color: #e88684;
+        text-align: center;
+        font-family: 'Barlow';
+        line-height: 15px;
+        font-size: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
 
 
 }
