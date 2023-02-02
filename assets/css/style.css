@@ -44,7 +44,7 @@ body {
     color:  black;
     float: left;
     position: relative;
-    left: 10px;
+    left: 5px;
     top: 20px;
     text-transform: uppercase;
     font-size: 50px;
@@ -59,26 +59,26 @@ body {
 /* Navigation */
 
 .nav {
-    overflow: hidden;
     position: relative;
-    top: 15px;
-    right: 10px;
     width: auto;
+    
 }
 
 .nav_links {
     list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    letter-spacing: 1px;
     
 }
 
 .nav_links a {
-    display: flex;
+ 
     text-decoration: none;
     color: black;
-    font-size: 20px;
-    padding: 2px;
+    font-size: 15px;
+    padding: 10px;
     font-family: 'Barlow';
-    align-self: center;
 
 }
 
@@ -87,11 +87,13 @@ body {
     color: #231f20;
     text-decoration: underline;
     border-radius: 25px;
-    background-color: #fafafa;
+    background-color: #cb7775;
 }
 
 .nav_links li {
-    display: inline-block;
+    display: flex;
+    align-self: flex-end;
+
 }
 
 
@@ -558,9 +560,9 @@ body {
 
 /* Sign up form */
 .sign-up-section {
+    height: 300px;
     display: flex;
     flex-flow: column;
-    height: 300px;
     justify-content: center;
     align-items: center;
 }
@@ -573,9 +575,9 @@ body {
     flex-flow: column;
     align-items: center;
     border-radius: 25px;
+    zoom: 100%;
     gap: 10px;
-    margin-bottom: 200px;
-
+    margin-bottom: 300px;
 }
 
 
@@ -685,7 +687,12 @@ body {
 
 /* End of join.html */
 
+/* Start of tips-tricks.html */
 
+.tips-tricks-box {
+    background-color: #231f20;
+    height: 800px;
+}
 
 /* Footer */
 
@@ -1076,6 +1083,71 @@ body {
 
 .learn-more {
     font-size: 24px;
+
+}
+
+/* Sign up form */
+
+.sign-up-section {
+    display: flex;
+    flex-flow: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-form {
+    background-color: #231f20;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-radius: 25px;
+    zoom: 130%;
+    margin-bottom: 150px;
+
+}
+
+#submit {
+    position: relative;
+    top: 20px;
+}
+
+/* Newsletter */
+.newsletter-box {
+    height: 650px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter {
+    height: 350px;
+    width: 370px;
+    background-color: #231f20;
+    border-radius: 25px;
+    zoom: 130%;
+}
+
+.header-newsletter {
+    align-self: flex-start;
+    font-size: 32px;
+    position: relative;
+    bottom: 10px;
+    margin-left: 5px;
+    color: white;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.paragraph-newsletter {
+    color: #e88684;
+    text-align: center;
+    font-family: 'Barlow';
+    line-height: 15px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
 
 }
 
