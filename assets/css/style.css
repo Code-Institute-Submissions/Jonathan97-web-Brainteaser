@@ -20,6 +20,8 @@ body, html {
 }
 
 
+/* Body */
+
 body {
 
     font-family: 'league spartan';
@@ -29,7 +31,6 @@ body {
     font-weight: 900;
 }
 
-
 /* Header */
 
 .header {
@@ -37,10 +38,7 @@ body {
     height: 65px;
     width:  100%;
     position: absolute;
-    
-
 }
-
 
 .main_header {
     color:  black;
@@ -132,7 +130,6 @@ body {
     margin-right: auto;
 }
 
-
 /* Containers for front page */
 
 /*Tips and tricks container */
@@ -145,7 +142,6 @@ body {
     position: relative;
     top: 30px;
     left: 200px;
-
 }
 
 /* Diagnosis container */
@@ -196,7 +192,6 @@ body {
     position: relative;
     right: 180px;
     bottom: 50px;
-
 }
 
 /* Info container */
@@ -209,7 +204,6 @@ body {
     position: relative;
     right: 200px;
     top: 30px;
-
 }
 
 
@@ -235,9 +229,6 @@ body {
     z-index: -1;
     top: 40px;
     right: 10px;
-    
-
- 
 }
 /* Links and text for containers */
 
@@ -320,10 +311,11 @@ body {
     text-align: center;
     position: relative;
     margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
 
 
 }
-
 
 
 /* About us */
@@ -355,8 +347,6 @@ body {
 
 
 }
-
-
 
 .about-us-circle {
     height: 90px;
@@ -401,11 +391,11 @@ body {
 /* About us text */
 
 .about-us-container-text {
-    font-size: 24px;
+    font-size: 18px;
     color: #231f20;
     text-align: center;
-    margin-top: 25px;
-    line-height: 30px;
+    margin-top: 30px;
+    letter-spacing: 0.5px;
     font-family: 'Barlow';
 }
 
@@ -441,8 +431,6 @@ body {
     height: 170px;
 }
 
-
-
 .your-diagnosis {
     font-size: 30px;
     letter-spacing: 0.5px;
@@ -450,8 +438,6 @@ body {
     color: #231f20;
     text-align: center;
 }
-
-
 
 .diagnosis-main-header {
     text-align: center;
@@ -462,9 +448,7 @@ body {
     color: white;
     font-family: 'league spartan';
     margin-top: 150px;
-
-
-    
+   
 }
 
 .diagnosis-header {
@@ -477,9 +461,6 @@ body {
     margin-top: 10px;
     margin-left: 5px;
 }
-
-
-
 
 /* Diagnosis main content */
 
@@ -536,7 +517,6 @@ body {
     width: 290px;
     background-color: #231f20;
     border-radius: 25px;
-    margin-top: px;
 }
 
 .header-newsletter {
@@ -619,9 +599,6 @@ body {
     align-self: center;
     text-align: center;
     letter-spacing: 0.5px;
-    
-    
-
 }
 
 
@@ -767,12 +744,6 @@ body {
 
 }
 
-
-
-
-
-
-
 /* Media queries */
 
 
@@ -793,129 +764,247 @@ body {
 
 
 
+
+@media only screen and (min-width: 768px) {
+
+.about-us {
+    height: 500px;
+    
+ }
+
+/* About us containers */
+.about-us-big-circle {
+    width: 420px;
+    height: 420px;
+
+
+}
+
+.about-us-circle {
+    height: 90px;
+    width: 90px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+
+.about-us-small-circle-one {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 120px;
+
+}
+
+.about-us-small-circle-two {
+    width: 80px;
+    height: 80px;
+    margin-top: 365px;
+    margin-left: 300px;
+}
+
+/* About us text */
+
+.about-us-container-text {
+    font-size: 24px;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+    inline-size: 100%;
+}
+
+.about-us-big-circle p {
+    font-size: 14px;
+    line-height: 13.5px;
+    letter-spacing: 0.5px;
+    inline-size: 80%;
+}
+
+.box-text {
+    font-size: 16px;
+}
+
+}
+
 @media only screen and (min-width: 1366px) {
+
     /*Hero */
+.hero-section {
 
-    .hero-section {
+      height: 1200px;
+}
 
-        height: 1200px;
-    }
-
-   .hero-circle {
-        width: 550px;
-        height: 550px;
-        top: 150px;
+.hero-circle {
+    width: 550px;
+    height: 550px;
+    top: 150px;
         
     
-    }
+}
 
-    .hero-picture {
-        width: 400px;
-        height: 400px;
-        bottom: 200px;
-    }
+.hero-picture {
+    width: 400px;
+    height: 400px;
+    bottom: 200px;
+}
 
 
 
-    /* Flex Containers */
+/* Flex Containers */
 
-    /* Tips and tricks container */
-    .container-flex-right-one {
-        height: 140px;
-        width: 140px;
-        left: 590px;
-        top: -170px;
+/* Tips and tricks container */
+.container-flex-right-one {
+    height: 140px;
+    width: 140px;
+    left: 590px;
+    top: -170px;
 
-    }
+}
 
-    .container-border-right-one {
-        height: 80px;
-        width: 160px;
-        border-bottom-left-radius: 80px;
-        border-bottom-right-radius: 80px;
-        top: 75px;
-    }
+.container-border-right-one {
+    height: 80px;
+    width: 160px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    top: 75px;
+}
 
-    /* Diagnosis container */
-    .container-flex-right-two {
-        height: 140px;
-        width: 140px;
-        left: 655px;
-        top: -170px;
-    }
+/* Diagnosis container */
+.container-flex-right-two {
+    height: 140px;
+    width: 140px;
+    left: 655px;
+    top: -170px;
+}
 
-    .container-border-right-two {
-        height: 80px;
-        width: 160px;
-        border-bottom-left-radius: 80px;
-        border-bottom-right-radius: 80px;
-        top: 75px;
-    }
-    /* Contact container */
-    .container-flex-left-one {
-        height: 140px;
-        width: 140px;
-        right: 450px;
-        top: -170px;
-
-    }
-
-    .container-border-left-one {
-        height: 80px;
-        width: 160px;
-        border-bottom-left-radius: 80px;
-        border-bottom-right-radius: 80px;
-        top: 75px;
-    }
-    /* Info container */
-    .container-flex-left-two {
-        height: 140px;
-        width: 140px;
-        right: 800px;
-        top: -170px
+.container-border-right-two {
+    height: 80px;
+    width: 160px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    top: 75px;
+}
+/* Contact container */
+.container-flex-left-one {
+    height: 140px;
+    width: 140px;
+    right: 450px;
+    top: -170px;
 
     }
 
-    .container-border-left-two {
-        height: 80px;
-        width: 160px;
-        border-bottom-left-radius: 80px;
-        border-bottom-right-radius: 80px;
-        top: 75px;
-    }
+.container-border-left-one {
+    height: 80px;
+    width: 160px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    top: 75px;
+}
+/* Info container */
+.container-flex-left-two {
+    height: 140px;
+    width: 140px;
+    right: 800px;
+    top: -170px
 
-    /* Text for containers */
+}
 
-    .flex-container-text {
-        font-size: 26px;
-    }
+.container-border-left-two {
+    height: 80px;
+    width: 160px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    top: 75px;
+}
 
-    /* Text box */
+/* Text for containers */
 
+.flex-container-text {
+    font-size: 26px;
+}
 
-    .box-text {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 20px;
-    }
-
-
-
-
-    .circle-box {
-        width: 400px;
-        height: 400px;
-    }
-
-    .circle-header {
-
-        font-size: 26px;
+/* Text box */
 
 
-    }
+.box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
 
-    .circle-text {
-        font-size: 20px;
-    }
+
+
+
+.circle-box {
+    width: 400px;
+    height: 400px;
+}
+
+.circle-header {
+    font-size: 26px;
+
+
+}
+
+.circle-text {
+    font-size: 20px;
+}
+
+
+.about-us {
+    height: 700px;
+
+    
+ }
+
+/* About us containers */
+.about-us-big-circle {
+    width: 600px;
+    height: 600px;
+
+
+}
+
+
+
+.about-us-circle {
+    height: 120px;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+
+.about-us-small-circle-one {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 150px;
+
+}
+
+.about-us-small-circle-two {
+    width: 100px;
+    height: 100px;
+    margin-top: 530px;
+    margin-left: 400px;
+}
+
+
+/* About us text */
+
+.about-us-container-text {
+    font-size: 30px;
+    margin-top: 25px;
+    inline-size: 100%;
+}
+
+.about-us-big-circle p {
+    font-size: 24px;
+    line-height: 18px;
+    inline-size: 80%;
+    
+
+}
+
 }
