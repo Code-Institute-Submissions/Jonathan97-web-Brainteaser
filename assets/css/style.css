@@ -72,25 +72,28 @@ body {
 }
 
 .nav_links a {
+    display: flex;
     text-decoration: none;
     color: black;
+    font-size: 20px;
     padding: 2px;
     font-family: 'Barlow';
-    
+    align-self: center;
 
 }
 
 .nav_links a:hover {
 
-    color: black;
+    color: #231f20;
     text-decoration: underline;
-    border-radius: 50%;
+    border-radius: 25px;
     background-color: #fafafa;
 }
 
 .nav_links li {
     display: inline-block;
 }
+
 
 /* Index */
 
@@ -247,7 +250,7 @@ body {
 .tips-tricks {
 
     position: relative;
-    bottom: 5px;
+    bottom: 20px;
 }
 
 .flex-container-text a {
@@ -467,9 +470,8 @@ body {
 
 .diagnosis-boxes {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-items: center;
-    justify-items: center;
     gap: 10px;
     height: 1700px;
     margin-top: 100px;
@@ -479,24 +481,36 @@ body {
 .diagnosis-box {
     background-color: #231f20;
     height: 200px;
-    width: 80%;
+    width: 90%;
     border-radius: 25px;
 
-}
 
+}
 
 .diagnosis-text {
     color: #cb7775;
     font-family: 'league spartan';
-    font-size: 11px;
+    font-size: 9.5px;
     line-height: 15px;
     margin-left: 5px;
-    letter-spacing: 0.7px;
+    letter-spacing: 0.2px;
 }
 
 .diagnosis-list {
     list-style: none;
 
+}
+
+.learn-more {
+    margin-left: 5px;
+    color: white;
+    font-size: 14px;
+
+}
+
+.learn-more a {
+    text-decoration: none;
+    color: #e88684;
 }
 
 /* End of diagnosis.html */
@@ -579,9 +593,8 @@ body {
 .diagnosis-label {
     display: flex;
     color: white;
-    position: relative;
     text-transform: uppercase;
-    bottom: 40px;
+    align-self: auto;
     font-size: 20px;
     letter-spacing: 0.5px;
     font-family: 'Barlow';
@@ -591,13 +604,13 @@ body {
     background-color: #e88684;
     color: #fafafa;
     width: 250px;
-    height: 30px;
-    text-decoration: none;
-    font-family: 'Barlow';
-    border-radius: 25px;
+    height: 50px;
     justify-self: center;
     align-self: center;
     text-align: center;
+    text-decoration: none;
+    font-family: 'Barlow';
+    border-radius: 25px;
     letter-spacing: 0.5px;
 }
 
@@ -643,10 +656,9 @@ body {
 }
 
 #checkbox {
-    height: 200px;
     width: 200px;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     color: #e88684;
     font-family: 'Barlow';
     text-transform: uppercase;
@@ -663,7 +675,7 @@ body {
     text-transform: uppercase;
     font-size: 12px;
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     gap: 5px;
     position: relative;
     bottom: 226px;
@@ -823,13 +835,47 @@ body {
     font-size: 16px;
 }
 
+
+
+/* Diagnosis text */
+
+.your-diagnosis {
+    font-size: 40px;
+    line-height: 32px;
+}
+.diagnosis-main-header {
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 143px;
+   
+}
+
+
+.diagnosis-header {
+    font-size: 30px;
+}
+
+.diagnosis-text {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
+
+.learn-more {
+    font-size: 16px;
+
+}
+
 }
 
 @media only screen and (min-width: 1366px) {
 
     /*Hero */
 .hero-section {
-
       height: 1200px;
 }
 
@@ -922,6 +968,12 @@ body {
     font-size: 26px;
 }
 
+.tips-tricks {
+
+    position: relative;
+    bottom: 25px;
+}
+
 /* Text box */
 
 
@@ -1006,5 +1058,39 @@ body {
     
 
 }
+
+/* Diagnosis text */
+
+.your-diagnosis {
+    font-size: 50px;
+    line-height: 40px;
+}
+.diagnosis-main-header {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 135px;
+   
+}
+
+
+.diagnosis-header {
+    font-size: 40px;
+}
+
+.diagnosis-text {
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    line-height: 22px;
+}
+
+.learn-more {
+    font-size: 24px;
+
+}
+
 
 }
