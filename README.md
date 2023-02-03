@@ -146,6 +146,7 @@ Press the link below to get redirected to the page.
 | [Font Awesome](https://fontawesome.com/) | entire site | was used for the favicons I used in my footer at the bottom |
 | [Google Fonts](https://fonts.google.com/) | entire site | was used for the fonts I used in my project |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_circles.asp) | entire site | was used to learn how to make perfect circles in CSS |
+| [Tim Nelson](https://traveltimn.github.io) | entire site | Helped me make a :root calc() for my navigation circles and helped me with a bit of the media queries |
 
 ### Media
 
