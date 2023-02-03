@@ -1,4 +1,8 @@
-# MY FULL TEMPLATE
+# BRAINTEASER
+
+## WELCOME TO BRAINTEASER
+### This site is developed with the intention to spread awareness about mental health.
+
 
 In this section, you will include a few paragraphs providing an overview of your project.
 Essentially, this part is your "sales pitch".
@@ -8,9 +12,6 @@ Don't introduce the project as a "portfolio project" for the diploma.
 
 In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
 
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://jonathan97-web.github.io/my-full-template
 
 Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
 (reminder: `assets/` and `static/` are for files used on the live site, not documentation)
@@ -18,51 +19,28 @@ Consider adding a new folder called `documentation`, and add the amiresponsive s
 To add the image into your README, use this format:
 (assuming you have a new folder called `documentation` with an image called "mockup.png")
 
-![screenshot](documentation/mockup.png)
+![Am I Responsive web page](documentation/am-i-responsive.PNG 'Am I responsive')
+Am I Responsive link: https://ui.dev/amiresponsive?url=https://jonathan97-web.github.io/Brainteaser/
 
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
 
 ## UX
 
-In this section, you will briefly explain your design processes.
+I have used a combination of grid and flex to get some of the elements where I needed them.
 
 ### Colour Scheme
 
-Explain your colours and the colour scheme.
 
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
+- `#FFFFFF` used for primary headers and text in darker containers.
+- `#e98784` used for text boxes with dark containers for high visibility and style.
+- `#231F20` used for containers and headers in brighter containers.
+- `#847365` used for backgrounds mainly.
+- `#c6b6a9` used for main background mainly.  
+  I used [coolors.co](https://coolors.co/c6b6a9-e98784-ffffff-231f20-847365) to generate my colour palette.
+  ![Color palette](documentation/color-palette.png 'Color palette')
 
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
-
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
-Example:
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
 
 ![screenshot](documentation/coolors.png)
 
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
-
-```css
-:root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
-}
-```
 
 ### Typography
 
@@ -72,9 +50,9 @@ Consider adding a link to each font used, and the Font Awesome site if used (or 
 
 Example:
 
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
+- [Montserrat](https://fonts.google.com/specimen/League+Spartan) was used for the primary headers and titles.
 
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
+- [Lato](https://fonts.google.com/specimen/Barlow) was used for all other secondary text.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 

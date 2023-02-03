@@ -1,4 +1,4 @@
-/* Text Google Fonts "League Spartan" */
+/* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
 
@@ -32,9 +32,8 @@ html {
 
 body {
 
-    font-family: 'league spartan';
+    font-family: 'League Spartan', sans-serif;
     letter-spacing: 2px;
-    color: black;
     background-color: #c6b6a9;
     font-weight: 900;
 }
@@ -49,7 +48,7 @@ body {
 }
 
 .main_header {
-    color: black;
+    color: #231f20;
     float: left;
     position: relative;
     left: 5px;
@@ -82,7 +81,7 @@ body {
     color: black;
     font-size: 15px;
     padding: 10px;
-    font-family: 'Barlow';
+    font-family: 'Barlow', sans-serif;
 
 }
 
@@ -91,7 +90,7 @@ body {
     color: #231f20;
     text-decoration: underline;
     border-radius: 25px;
-    background-color: #cb7775;
+    background-color: #e98784;
 }
 
 .nav_links li {
@@ -222,20 +221,18 @@ body {
 
 .flex-container-text {
     text-align: center;
-    font-size: 12px;
     color: white;
     position: relative;
+    letter-spacing: 0.5px;
     bottom: 15px;
-    font-family: 'league spartan';
+    font-family: 'Barlow', sans-serif;
     text-decoration: none;
     color: white;
     z-index: 1;
 }
 
 .tips-tricks {
-
-    position: relative;
-    bottom: 20px;
+    bottom: 25px;
 }
 
 .flex-container-text a {
@@ -272,7 +269,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: white;
-    font-family: 'Barlow';
+    font-family: 'League Spartan', sans-serif;
     letter-spacing: 0.5px;
 
 }
@@ -283,7 +280,7 @@ body {
     color: #231f20;
     line-height: 110%;
     width: 90%;
-    font-family: 'Barlow';
+    font-family: 'Barlow', sans-serif;
     text-align: center;
     letter-spacing: 1.5px;
     margin-left: 5%;
@@ -294,8 +291,8 @@ body {
 
 .box-text {
     font-size: 12px;
-    color: #cb7775;
-    font-family: 'Barlow';
+    color: #e98784;
+    font-family: 'Barlow', sans-serif;
     text-align: center;
     position: relative;
     margin-top: 50px;
@@ -342,7 +339,7 @@ body {
     grid-column: 2;
     grid-row: 1;
     border-radius: 50%;
-    background-color: #e88684;
+    background-color: #e98784;
     z-index: 2;
     align-self: flex-start;
     margin-left: 2.5px;
@@ -369,7 +366,7 @@ body {
     border-radius: 50%;
     grid-column: 2;
     grid-row: 1;
-    background-color: #eeaa94;
+    background-color: #e98784;
     z-index: 2;
     margin-top: 300px;
     margin-left: 230px;
@@ -384,7 +381,7 @@ body {
     text-align: center;
     margin-top: 30px;
     letter-spacing: 0.5px;
-    font-family: 'Barlow';
+    font-family: 'Barlow', sans-serif;
 }
 
 .about-us-big-circle p {
@@ -433,7 +430,7 @@ body {
     line-height: 20px;
     text-transform: uppercase;
     color: white;
-    font-family: 'league spartan';
+    font-family: 'League Spartan', sans-serif;
     margin-top: 150px;
 
 }
@@ -447,6 +444,7 @@ body {
     text-align: left;
     margin-top: 10px;
     margin-left: 5px;
+    margin-bottom: 10px;
 }
 
 /* Diagnosis main content */
@@ -471,8 +469,8 @@ body {
 }
 
 .diagnosis-text {
-    color: #cb7775;
-    font-family: 'Barlow';
+    color: #e98784;
+    font-family: 'Barlow', sans-serif;
     line-height: 1.1;
     margin-left: 5px;
     letter-spacing: 0.5;
@@ -487,12 +485,13 @@ body {
 .learn-more {
     margin-left: 5px;
     color: white;
+    padding-bottom: 5px;
 
 }
 
 .learn-more a {
     text-decoration: none;
-    color: #e88684;
+    color: #e98784;
 }
 
 /* End of diagnosis.html */
@@ -527,9 +526,9 @@ body {
 }
 
 .paragraph-newsletter {
-    color: #e88684;
+    color: #e98784;
     text-align: center;
-    font-family: 'Barlow';
+    font-family: 'Barlow', sans-serif;
     line-height: 15px;
     font-size: 13px;
     margin-left: 5px;
@@ -579,11 +578,11 @@ body {
     align-self: auto;
     font-size: 20px;
     letter-spacing: 0.5px;
-    font-family: 'Barlow';
+    font-family: 'Barlow', sans-serif;
 }
 
 #name {
-    background-color: #e88684;
+    background-color: #e98784;
     color: #fafafa;
     width: 250px;
     height: 50px;
@@ -591,7 +590,7 @@ body {
     align-self: center;
     text-align: center;
     text-decoration: none;
-    font-family: 'Barlow';
+    font-family: 'Barlow', sans-serif;
     border-radius: 25px;
     letter-spacing: 0.5px;
 }
@@ -602,12 +601,12 @@ body {
 }
 
 #email {
-    background-color: #e88684;
+    background-color: #e98784;
     color: #fafafa;
     width: 250px;
     height: 30px;
     text-decoration: none;
-    font-family: 'Barlow';
+    font-family: 'Barlow', sans-serif;
     border-radius: 25px;
     align-self: center;
     text-align: center;
@@ -621,12 +620,12 @@ body {
     height: 30px;
     border-radius: 15px 15px 15px 15px;
     display: flex;
-    background-color: #e88684;
+    background-color: #e98784;
     align-self: flex-end;
     margin-top: 60px;
     margin-right: 10px;
     justify-content: center;
-    font-family: 'Barlow';
+    font-family: 'Barlow', sans-serif;
 }
 
 #submit:hover {
@@ -642,7 +641,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     color: #e88684;
-    font-family: 'Barlow';
+    font-family: 'Barlow', sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     position: relative;
@@ -653,7 +652,7 @@ body {
 
 #checkbox2 {
     color: #e88684;
-    font-family: 'Barlow';
+    font-family: 'Barlow', sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     display: flex;
@@ -849,8 +848,6 @@ body {
         font-size: 30px;
     }
 
-    .diagnosis-text {
-    }
 
     .learn-more {
         font-size: 16px;
@@ -972,14 +969,10 @@ body {
     /* Text for containers */
 
     .flex-container-text {
-        font-size: 26px;
+        font-size: 120%;
+        bottom: 20px;
     }
 
-    .tips-tricks {
-
-        position: relative;
-        bottom: 25px;
-    }
 
     /* Text box */
 
@@ -1150,9 +1143,9 @@ body {
     }
 
     .paragraph-newsletter {
-        color: #e88684;
+        color: #e98784;
         text-align: center;
-        font-family: 'Barlow';
+        font-family: 'Barlow', sans-serif;
         line-height: 15px;
         font-size: 20px;
         margin-left: 5px;
