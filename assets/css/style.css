@@ -416,7 +416,7 @@ body {
 }
 
 .your-diagnosis {
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     color: #231f20;
@@ -425,7 +425,6 @@ body {
 
 .diagnosis-main-header {
     text-align: center;
-    font-size: 10px;
     letter-spacing: 0.5px;
     line-height: 20px;
     text-transform: uppercase;
@@ -500,7 +499,6 @@ body {
 
 /* Newsletter */
 .newsletter-box {
-    height: 650px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -512,6 +510,7 @@ body {
     width: 290px;
     background-color: #231f20;
     border-radius: 25px;
+    margin-top: 150px;
 }
 
 .header-newsletter {
@@ -530,16 +529,15 @@ body {
     text-align: center;
     font-family: 'Barlow', sans-serif;
     line-height: 15px;
-    font-size: 13px;
     margin-left: 5px;
     margin-right: 5px;
+    padding-bottom: 10px;
 
 }
 
 
 /* Sign up form */
 .sign-up-section {
-    height: 300px;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -548,7 +546,7 @@ body {
 
 .sign-up-form {
     height: 250px;
-    width: 290px;
+    width: 320px;
     background-color: #231f20;
     display: flex;
     flex-flow: column;
@@ -556,7 +554,8 @@ body {
     border-radius: 25px;
     zoom: 100%;
     gap: 10px;
-    margin-bottom: 300px;
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
 
 
@@ -854,8 +853,9 @@ body {
 
     }
 
+    /* Circles nav links */
 
-    .container-flex-left-one { 
+    .container-flex-left-one {
         right: 180px;
         bottom: -10px;
     }
@@ -875,6 +875,22 @@ body {
         right: 180px;
         bottom: -10px;
     }
+
+
+
+    .newsletter {
+        zoom: 120%;
+        margin-top: 200px;
+
+    }
+
+    .sign-up-form {
+        zoom: 120%;
+        margin-top: 50px;
+
+
+    }
+
 
 }
 
@@ -1105,7 +1121,7 @@ body {
         align-items: center;
         border-radius: 25px;
         zoom: 130%;
-        margin-bottom: 150px;
+        margin-bottom: 50px;
 
     }
 
@@ -1124,11 +1140,12 @@ body {
     }
 
     .newsletter {
-        height: 350px;
-        width: 370px;
         background-color: #231f20;
         border-radius: 25px;
-        zoom: 130%;
+        zoom: 140%;
+        margin-bottom: 100px;
+        padding-bottom: 10px;
+
     }
 
     .header-newsletter {
@@ -1147,7 +1164,6 @@ body {
         text-align: center;
         font-family: 'Barlow', sans-serif;
         line-height: 15px;
-        font-size: 20px;
         margin-left: 5px;
         margin-right: 5px;
 
