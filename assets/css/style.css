@@ -63,6 +63,11 @@ body {
     color: black;
 }
 
+.main_header a:hover {
+    color: #e98784;
+
+}
+
 /* Navigation */
 
 

@@ -19,8 +19,8 @@ Consider adding a new folder called `documentation`, and add the amiresponsive s
 To add the image into your README, use this format:
 (assuming you have a new folder called `documentation` with an image called "mockup.png")
 
-![Am I Responsive web page](documentation/am-i-responsive.PNG 'Am I responsive')
-Am I Responsive link: https://ui.dev/amiresponsive?url=https://jonathan97-web.github.io/Brainteaser/
+![Am I Responsive web page](documentation/images/am-i-responsive.PNG 'Am I responsive')
+[Am I responsive web page](https://ui.dev/amiresponsive?url=https://jonathan97-web.github.io/Brainteaser/)
 
 
 ## UX
@@ -36,23 +36,19 @@ I have used a combination of grid and flex to get some of the elements where I n
 - `#847365` used for backgrounds mainly.
 - `#c6b6a9` used for main background mainly.  
   I used [coolors.co](https://coolors.co/c6b6a9-e98784-ffffff-231f20-847365) to generate my colour palette.
-  ![Color palette](documentation/color-palette.png 'Color palette')
+  ![Color palette](documentation/images/color-palette.png.png 'Color palette')
 
-
-![screenshot](documentation/coolors.png)
 
 
 ### Typography
 
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
-
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
+For Brainteaser I used Google Fonts as it is easy to use.
 
 Example:
 
-- [Montserrat](https://fonts.google.com/specimen/League+Spartan) was used for the primary headers and titles.
+- [League Spartan](https://fonts.google.com/specimen/League+Spartan) was used for the primary headers and titles.
 
-- [Lato](https://fonts.google.com/specimen/Barlow) was used for all other secondary text.
+- [Barlow](https://fonts.google.com/specimen/Barlow) was used for all other secondary text.
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
@@ -60,13 +56,14 @@ Example:
 
 In this section, list all of your user stories for the project.
 
-### New Site Users
+### Site Users
 
-- As a new site user, I would like to ___________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
+- As a site user, I would like to navigate pages easily, so that I can find the information I need.
+- As a site user, I would like to leave the website having gained more knowledge about my diagnosis,
+so that I can understand it better.
+- As a site user, I would like to , so that I can ____________.
+- As a site user, I would like to ____________, so that I can ____________.
+- As a site user, I would like to ____________, so that I can ____________.
 
 ### Returning Site Users
 
@@ -86,38 +83,43 @@ In this section, list all of your user stories for the project.
 
 ## Wireframes
 
-In this section, display your wireframe screenshots using a Markdown `table`.
+I used Canva to design the wireframes for the website.   
+[Canva website](https://www.canva.com/ 'Canva') 
 
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
+### Unfortunately I didn't have enough time to recreate the website exactly as the wireframes.
 
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
-
-### Home Page Wireframes
+### Home and About Us Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-home.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-home.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-home.png) |
+| Mobile | [Wireframe](/documentation/wireframes/wireframe-home-mobile.png) |
+| Desktop | [Wireframe](documentation/wireframes/wireframe-home-desktop.png) |
 
-### About Page Wireframes
 
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-about.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-about.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-about.png) |
 
-### Contact Page Wireframes
+### Sign-Up Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-contact.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-contact.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-contact.png) |
+| Mobile | [Wireframe](documentation/wireframes/wireframe-sign-up-mobile.png) |
+| Desktop | [Wireframe](documentation/wireframes/wireframe-sign-up-desktop.png) |
 
-Repeat for any addition wireframe pages you have.
+### Tips & Tricks Page Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | [Wireframe](documentation/wireframes/wireframe-tips-tricks-mobile.png) |
+| Desktop | [Wireframe](documentation/wireframes/wireframe-tips-tricks-desktop.png) |
+
+
+### Diagnosis Page Wireframe
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | [Wireframe](documentation/wireframes/wireframe-diagnosis-mobile.png) |
+| Desktop | [Wireframe](documentation/wireframes/wireframe-diagnosis-desktop.png) |
+
+
 
 ## Features
 
