@@ -459,9 +459,8 @@ body {
 }
 
 .professional-header {
-    
     letter-spacing: 0.5px;
-    line-height: 20px;
+    line-height: 15px;
     text-transform: uppercase;
     color: white;
     text-align: center;
@@ -469,6 +468,7 @@ body {
     margin-left: 5px;
     margin-bottom: 10px;
 }
+
 
 
 /* Diagnosis main content */
@@ -828,6 +828,10 @@ body {
     letter-spacing: 0.5px;
     text-align: center;
     
+}
+
+.professional-header {
+    font-size: 20px;
 }
 
 
