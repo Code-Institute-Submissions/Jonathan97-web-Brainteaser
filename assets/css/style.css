@@ -488,6 +488,7 @@ body {
     background-color: #231f20;
     width: 90%;
     border-radius: 20px;
+    padding: 10px;
 
 
 }
@@ -515,7 +516,7 @@ body {
 
 .learn-more a {
     text-decoration: none;
-    color: #e98784;
+    color: white;
 }
 
 /* End of diagnosis.html */
@@ -542,6 +543,7 @@ body {
     background-color: #847365;
     width: 90%;
     border-radius: 20px;
+    padding: 10px;
 
 }
 

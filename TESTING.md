@@ -37,7 +37,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 
 ## Mozilla Firefox
-- The bottom text for newsletter on the sign-up page spans outside of the box, I don't currently know the solution.
+- The bottom text for newsletter on the sign-up page spans outside of the box, I currently don't know the solution.
 ## Google Chrome
 - Works as expected.
 ## Safari
@@ -48,20 +48,16 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 - Works as expected.
 
 
-
-**IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
-
-
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
 | Chrome | ![screenshot](documentation/browser-chrome.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browser-firefox.png) | Works as expected |
+| Firefox (DE) | ![screenshot](documentation/browser-firefox.png) | Difference in the sign-up page |
 | Edge | ![screenshot](documentation/browser-edge.png) | Works as expected |
 | Safari | [Safari-index](documentation/images/index-safari.png) | Works as expected |
 | Brave | ![screenshot](documentation/browser-brave.png) | Works as expected |
-| Opera GX | ![screenshot](documentation/browser-opera.png) | Minor differences |
+| Opera GX | ![screenshot](documentation/browser-opera.png) | Works as expected |
 | x | x | repeat for any other tested browsers |
 
 ## Responsiveness
@@ -87,13 +83,12 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop.png) | Works as expected |
-| 2K Monitor | ![screenshot](documentation/responsive-xl.png) | Scaling starts to have minor issues |
-| 4K Monitor | ![screenshot](documentation/responsive-4k.png) | Noticeable scaling issues |
-| iPhone 14 Pro | ![screenshot](documentation/responsive-iphone.png) | Works as expected |
-| x | x | repeat for any other tested sizes |
+| Mobile (DevTools) | [Screenshot](documentation/images/responsive-mobile.PNG) | Works as expected |
+| Tablet (DevTools) | [Screenshot](documentation//images/responsive-tablet.PNG) | Works as expected |
+| Desktop | [Screenshot](documentation//images/responsive-desktop.PNG) | Works as expected |
+| 4K Monitor | [Screenshot](documentation//images/responsive-4k.PNG) | Minor scaling issues |
+| iPhone 14 Pro | [Screenshot](documentation/images/image-responsiveness-iphone.PNG) | Works as expected |
+| Macbook Pro | [Screenshot](documentation/images/responsive-macbook.png) | Works as expected |
 
 ## Lighthouse Audit
 
