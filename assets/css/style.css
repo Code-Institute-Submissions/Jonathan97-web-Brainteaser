@@ -446,6 +446,19 @@ body {
     margin-bottom: 10px;
 }
 
+.professional-header {
+    
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+
 /* Diagnosis main content */
 
 
@@ -472,7 +485,7 @@ body {
     font-family: 'Barlow', sans-serif;
     line-height: 1.1;
     margin-left: 5px;
-    letter-spacing: 0.5;
+    letter-spacing: 0.5px;
     padding-bottom: 10px;
 }
 
@@ -494,6 +507,44 @@ body {
 }
 
 /* End of diagnosis.html */
+
+
+/* Start of tips-tricks.html */
+
+.tips-and-tricks {
+    background-color: #231f20;
+    padding-bottom: 20px;
+}
+
+.diagnosis-boxes {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+
+
+}
+
+.tips-tricks-box {
+    background-color: #847365;
+    width: 90%;
+    border-radius: 20px;
+
+}
+
+.tips-tricks-text {
+    color: #231f20;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.1;
+    margin-left: 5px;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+}
+
+
+
+
 
 /* Start of join.html */
 
@@ -556,6 +607,11 @@ body {
     gap: 10px;
     margin-top: 100px;
     margin-bottom: 200px;
+}
+
+#submit {
+    position: relative;
+    top: 20px;
 }
 
 
@@ -665,12 +721,6 @@ body {
 
 /* End of join.html */
 
-/* Start of tips-tricks.html */
-
-.tips-tricks-box {
-    background-color: #231f20;
-    height: 800px;
-}
 
 /* Footer */
 
@@ -761,6 +811,13 @@ body {
 
 }
 
+.h2-thanks {
+    color: #231f20;
+    letter-spacing: 0.5px;
+    text-align: center;
+    
+}
+
 
 
 
@@ -846,7 +903,7 @@ body {
     .diagnosis-header {
         font-size: 30px;
     }
-
+    
 
     .learn-more {
         font-size: 16px;
@@ -1007,13 +1064,6 @@ body {
         width: 400px;
         height: 400px;
     }
-
-    .circle-header {
-      
-
-
-    }
-
 
     .about-us {
         height: 700px;
