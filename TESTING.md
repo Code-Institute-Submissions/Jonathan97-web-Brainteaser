@@ -27,7 +27,8 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FJonathan97-web.github.io%2FBrainteaser) | ![screenshot](documentation/images/style-css.PNG) | Pass: No Errors (Warning's due to zoom)|
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FJonathan97-web.github.io%2FBrainteaser) | 
+![screenshot](documentation/images/style-css.png) | Pass: No Errors (Warning's due to zoom)|
 
 ## Browser Compatibility
 
