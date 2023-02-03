@@ -1,8 +1,8 @@
 # BRAINTEASER
 
 ## WELCOME TO BRAINTEASER
-### This site is developed with the intention to spread awareness about mental health.
 
+### This site is developed with the intention to spread awareness about mental health.
 
 In this section, you will include a few paragraphs providing an overview of your project.
 Essentially, this part is your "sales pitch".
@@ -11,7 +11,6 @@ At this stage, you should have a name for your project so use it!
 Don't introduce the project as a "portfolio project" for the diploma.
 
 In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
 
 Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
 (reminder: `assets/` and `static/` are for files used on the live site, not documentation)
@@ -22,23 +21,19 @@ To add the image into your README, use this format:
 ![Am I Responsive web page](documentation/images/am-i-responsive.PNG 'Am I responsive')
 [Am I responsive web page](https://ui.dev/amiresponsive?url=https://jonathan97-web.github.io/Brainteaser/)
 
-
 ## UX
 
 I have used a combination of grid and flex to get some of the elements where I needed them.
 
 ### Colour Scheme
 
-
 - `#FFFFFF` used for primary headers and text in darker containers.
 - `#e98784` used for text boxes with dark containers for high visibility and style.
 - `#231F20` used for containers and headers in brighter containers.
 - `#847365` used for backgrounds mainly.
 - `#c6b6a9` used for main background mainly.  
-  I used [coolors.co](https://coolors.co/c6b6a9-e98784-ffffff-231f20-847365) to generate my colour palette.
+  I used [coolors.co](https://coolors.co/c6b6a9-e98784-ffffff-231f20-847365) to generate my colour palette.  
   ![Color palette](documentation/images/color-palette.png.png 'Color palette')
-
-
 
 ### Typography
 
@@ -86,7 +81,7 @@ so that I can understand it better.
 I used Canva to design the wireframes for the website.   
 [Canva website](https://www.canva.com/ 'Canva') 
 
-### Unfortunately I didn't have enough time to recreate the website exactly as the wireframes.
+### Unfortunately I didn't have enough time to recreate the website exactly as the wireframes
 
 ### Home and About Us Page Wireframes
 
@@ -94,8 +89,6 @@ I used Canva to design the wireframes for the website.
 | --- | --- |
 | Mobile | [Wireframe](/documentation/wireframes/wireframe-home-mobile.png) |
 | Desktop | [Wireframe](documentation/wireframes/wireframe-home-desktop.png) |
-
-
 
 ### Sign-Up Page Wireframes
 
@@ -111,15 +104,12 @@ I used Canva to design the wireframes for the website.
 | Mobile | [Wireframe](documentation/wireframes/wireframe-tips-tricks-mobile.png) |
 | Desktop | [Wireframe](documentation/wireframes/wireframe-tips-tricks-desktop.png) |
 
-
 ### Diagnosis Page Wireframe
 
 | Size | Screenshot |
 | --- | --- |
 | Mobile | [Wireframe](documentation/wireframes/wireframe-diagnosis-mobile.png) |
 | Desktop | [Wireframe](documentation/wireframes/wireframe-diagnosis-desktop.png) |
-
-
 
 ## Features
 
@@ -136,11 +126,12 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ### Existing Features
 
-- **Feature #1**
+- **Hoverable header**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Header that changes the color from black to brighter pink when hovered over using :hover CSS.
 
-![screenshot](documentation/feature01.png)
+![screenshot](documentation/images/header1.PNG)
+![screenshot](documentation/images/header2.PNG)
 
 - **Feature #2**
 
@@ -160,17 +151,12 @@ Hint: the more, the merrier!
 
 ### Future Features
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-- Cool new feature #1
-    - Any additional notes about this feature.
-- Cool new feature #2
-    - Any additional notes about this feature.
-- Cool new feature #3
-    - Any additional notes about this feature.
+- Hamburger menu for nav.
+    - A fully interactive handburger menu, unfortunately this requires JavaScript.
+- Contact page
+    - Full contact page for users to interact with our team. (COMING SOON)
+- Eye catching design on Diagnosis and Tips&Tricks pages.
+    - Further design of the Diagnosis and Tips&Tricks as viewed in the wireframes. (COMING SOON)
 
 ## Tools & Technologies Used
 
@@ -185,13 +171,14 @@ Feel free to delete any unused items below as necessary.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and/or [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
+- [Canva](https://canva.com) used for creation of the wireframes.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [Markdown Builder by Tim Nelson](https://traveltimn.github.io/readme-builder) used to help generate the Markdown files.
 
 ## Testing
 
-For all testing, please refer to the [TESTING.md](TESTING.md) file.
+Here you can see the testing that was made for the website. [TESTING.md](TESTING.md)
 
 ## Deployment
 
@@ -247,25 +234,15 @@ however, it is important to be very specific about these sources to avoid plagia
 
 ### Content
 
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder by Tim Nelson](https://traveltimn.github.io/readme-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
-| [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
 | [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
 | [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
 
 ### Media
 
@@ -281,22 +258,14 @@ by sending yourself the following command: `!freemedia`.
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
-| [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
+| [Canva](https://www.canva.com) | entire site | image | hero image and wireframe creation |
 
 ### Acknowledgements
 
 Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
 A few examples have been provided below to give you some ideas.
 
-- I would like to thank my Code Institute mentor, [John/Jane Doe](https://github.com/username) for their support throughout the development of this project.
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his excellent help and support during the development phase.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
-- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my spouse/partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support, great way to find answers to questions and the community is great.
+- I would like to thank my partner Merle , for believing in me, helping me with the creation of the wireframes and allowing me to spend sleepless nights developing my project.

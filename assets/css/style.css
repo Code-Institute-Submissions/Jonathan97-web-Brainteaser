@@ -245,6 +245,10 @@ body {
     color: white;
 }
 
+.flex-container-text a:hover {
+    color:#e98784;
+}
+
 /* Text box and circle box */
 
 .text-box {
