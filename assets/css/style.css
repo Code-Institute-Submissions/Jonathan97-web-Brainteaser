@@ -246,7 +246,7 @@ body {
 }
 
 .flex-container-text a:hover {
-    color:#e98784;
+    color:#e98784
 }
 
 /* Text box and circle box */
@@ -396,13 +396,12 @@ body {
 .about-us-big-circle p {
     text-align: center;
     color: white;
-    font-size: 10px;
-    line-height: 12px;
     letter-spacing: 0.5px;
-    inline-size: 80%;
     margin-left: 10%;
 
 }
+
+
 
 /* End of index.html */
 
@@ -571,6 +570,7 @@ body {
     background-color: #231f20;
     border-radius: 25px;
     margin-top: 150px;
+    padding-bottom: 30px;
 }
 
 .header-newsletter {
@@ -591,7 +591,6 @@ body {
     line-height: 15px;
     margin-left: 5px;
     margin-right: 5px;
-    padding-bottom: 10px;
 
 }
 
@@ -947,6 +946,7 @@ body {
     .newsletter {
         zoom: 120%;
         margin-top: 200px;
+        padding-bottom: 30px;
 
     }
 
@@ -1199,7 +1199,7 @@ body {
         border-radius: 25px;
         zoom: 140%;
         margin-bottom: 100px;
-        padding-bottom: 10px;
+        padding-bottom: 30px;
 
     }
 

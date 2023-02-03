@@ -128,26 +128,33 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 - **Hoverable header**
 
-    - Header that changes the color from black to brighter pink when hovered over using :hover CSS.
+    - Header that changes the color from black to pink when hovered over using :hover CSS.
+    - On every page you can use it to get back to the homepage.
 
-![screenshot](documentation/images/header1.PNG)
-![screenshot](documentation/images/header2.PNG)
+![Header](documentation/images/header1.PNG)
+![Header](documentation/images/header2.PNG)
 
-- **Feature #2**
+- **Responsive navigation and hero**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Navigation and hero section with four circles and a image of a brain.
+    - The layout changes when you resize it to tablet/mobile viewports. (Try it!)
+    - The circles have a hover function which makes the white text pink when hovering over it.
+    - Instead of having the traditional navigation at the top of the page I found this to be more eye catching for the user. (only on the home page)
+    - By pressing the about us button you will be forwarded down to our about us section on the bottom of the index page.
 
-![screenshot](documentation/feature02.png)
+![Navigation and hero](documentation/images/hero-nav.PNG)
+![Navigation and hero](documentation/images/hero-nav2.PNG)
 
-- **Feature #3**
+- **About Us Section**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The about us section on the bottom of the homepage is made of a black circle with three other circles around it which makes it look like a solar system.
+    - The about us section is also responsive.
+    - It has information regarding our goal about mental health information, this is very important.
+    - 
 
-![screenshot](documentation/feature03.png)
+![About Us](documentation/images/about-us.PNG)
 
-Repeat as necessary for as many features as your site contains.
 
-Hint: the more, the merrier!
 
 ### Future Features
 
@@ -246,15 +253,6 @@ however, it is important to be very specific about these sources to avoid plagia
 
 ### Media
 
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
@@ -262,8 +260,7 @@ by sending yourself the following command: `!freemedia`.
 
 ### Acknowledgements
 
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
+Thank you to everyone for all the help I have gotten during the development phase!
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his excellent help and support during the development phase.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
