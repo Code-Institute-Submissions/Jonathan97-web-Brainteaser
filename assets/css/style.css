@@ -246,7 +246,7 @@ body {
 }
 
 .flex-container-text a:hover {
-    color:#e98784
+    color: #e98784
 }
 
 /* Text box and circle box */
@@ -829,7 +829,7 @@ body {
     color: #231f20;
     letter-spacing: 0.5px;
     text-align: center;
-    
+
 }
 
 .professional-header {
@@ -922,7 +922,7 @@ body {
     .diagnosis-header {
         font-size: 30px;
     }
-    
+
 
     .learn-more {
         font-size: 16px;
