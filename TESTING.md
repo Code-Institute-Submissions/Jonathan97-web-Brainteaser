@@ -28,7 +28,6 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-Sample CSS code validation documentation (tables are extremely helpful!):
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
@@ -36,25 +35,22 @@ Sample CSS code validation documentation (tables are extremely helpful!):
 
 ## Browser Compatibility
 
-Use this space to discuss testing the live/deployed site on various browsers.
 
-Consider testing at least 3 different browsers, if available on your system.
+## Mozilla Firefox
+- The bottom text for newsletter on the sign-up page spans outside of the box, I don't currently know the solution.
+## Google Chrome
+- Works as expected.
+## Safari
+- Works as expected.
+## Edge
+- Works as expected.
+## Opera GX
+- Works as expected.
 
-Recommended browsers to consider:
-- [Chrome](https://www.google.com/chrome)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
-- [Edge](https://www.microsoft.com/edge)
-- [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
-- [Opera](https://www.opera.com/download)
+
 
 **IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
 
-Please note, there are services out there that can test multiple browser compatibilities at the same time.
-Some of these are paid services, but some are free.
-If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
-
-Sample browser testing documentation:
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
@@ -63,10 +59,9 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Chrome | ![screenshot](documentation/browser-chrome.png) | Works as expected |
 | Firefox | ![screenshot](documentation/browser-firefox.png) | Works as expected |
 | Edge | ![screenshot](documentation/browser-edge.png) | Works as expected |
-| Safari | ![screenshot](documentation/browser-safari.png) | Minor CSS differences |
+| Safari | [Safari-index](documentation/images/index-safari.png) | Works as expected |
 | Brave | ![screenshot](documentation/browser-brave.png) | Works as expected |
-| Opera | ![screenshot](documentation/browser-opera.png) | Minor differences |
-| Internet Explorer | ![screenshot](documentation/browser-iex.png) | Does not work as expected |
+| Opera GX | ![screenshot](documentation/browser-opera.png) | Minor differences |
 | x | x | repeat for any other tested browsers |
 
 ## Responsiveness
@@ -95,10 +90,9 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Mobile (DevTools) | ![screenshot](documentation/responsive-mobile.png) | Works as expected |
 | Tablet (DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
 | Desktop | ![screenshot](documentation/responsive-desktop.png) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsive-xl.png) | Scaling starts to have minor issues |
+| 2K Monitor | ![screenshot](documentation/responsive-xl.png) | Scaling starts to have minor issues |
 | 4K Monitor | ![screenshot](documentation/responsive-4k.png) | Noticeable scaling issues |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsive-pixel.png) | Works as expected |
-| iPhone 14 | ![screenshot](documentation/responsive-iphone.png) | Works as expected |
+| iPhone 14 Pro | ![screenshot](documentation/responsive-iphone.png) | Works as expected |
 | x | x | repeat for any other tested sizes |
 
 ## Lighthouse Audit
