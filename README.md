@@ -133,6 +133,17 @@ There is a seperate file for testing of the webpage with browser compability, li
 Press the link below to get redirected to the page.  
 [TESTING.md](TESTING.md)
 
+## Deployment
+
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+
+- In the [GitHub repository](https://github.com/Jonathan97-web/Brainteaser), navigate to the Settings tab.
+- Click pages tab.
+- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://jonathan97-web.github.io/Brainteaser)
+
 ## Credits
 
 ### Content
